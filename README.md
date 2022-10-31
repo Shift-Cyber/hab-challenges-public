@@ -8,6 +8,8 @@ The Hack a Bit 2022-2023 competition season, marked 0x01 is the first year that 
 
 Shift Cyber believes that there is enormous value in being able to see and interact with the competition challenges after the final round ends. Many of the existing competitions don't publish challenges and lose out on a great learning opportunity as a result. Comeptiton staff believe that open sourcing competition material is just one more step towards provided beter, more compehensive learning opportunities for students.
 
+Please reach out to contact@shiftcyber.com if you have any questions.
+
 ## Challenge Overview
 ### [Round 1](./round_1)
 Round one is designed to test a competitors current competency level. It is a quick quiz within the Flexiquiz testing environment. Limited to 30 minutes, the competitor answers 30 questions within six catagories of cyber security. The first round is designed to achieve a baseline and allow staff to scope the second round approperiately.
@@ -16,6 +18,7 @@ Round one is designed to test a competitors current competency level. It is a qu
 
 
 ### Round 3
+
 
 ## Infrastructure
 Shift Cyber runs Hack a Bit on a flexible cloud backend within Google Cloud Platform. Specific details will be provided in the challenge descriptors on an as-required basis, but here are a few notes of general importance. Most challenges were developed as containerized applications and scaled in a dedicated Kubernetes cluster. As a result, for challenges that require state, a session token is used to maintain that state and Google Traffic Director retains routing configuration based on that state token. For any challenge using transport encryption (TLS), a reverse proxy is setup through that load balancer as well. Again, more details are provided in specific challenge context but this is significant in the point that you will not require this context to run the challenges locally.
