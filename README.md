@@ -10,14 +10,16 @@ Shift Cyber believes that there is enormous value in being able to see and inter
 
 Please reach out to contact@shiftcyber.com if you have any questions.
 
+
 ## Challenge Overview
 ### [Round 1](./round_1)
 Round one is designed to test a competitors current competency level. It is a quick quiz within the Flexiquiz testing environment. Limited to 30 minutes, the competitor answers 30 questions within six catagories of cyber security. The first round is designed to achieve a baseline and allow staff to scope the second round approperiately.
 
 ### Round 2
-
+*pending development...*
 
 ### Round 3
+*pending development...*
 
 
 ## Infrastructure
