@@ -3,9 +3,9 @@
 # Hack a Bit - Challenge Release
 This is the official competition repository for Hack a Bit challenges. Once a round ends, quiz questions, challenges and supporting infrastructure will be published here, publicly, for everyone to view. You will also be able to run most of the challenges locally if you'd like to continue working on them after the round ends. Challenges are organized by year and then by round, please see the following for more information:
 
-| ID   | Year      | Status  |
-| ---- | --------- | ------- |
-| 0x01 | 2022-2023 | Ongoing |
+| ID           | Year      | Status  |
+| ------------ | --------- | ------- |
+| [0x01](0x01) | 2022-2023 | Ongoing |
 
 Shift Cyber believes that there is enormous value in being able to see and interact with the competition challenges after the final round ends. Many of the existing competitions don't publish challenges and lose out on a great learning opportunity as a result. Comeptiton staff believe that open sourcing competition material is just one more step towards providing beter, compehensive learning opportunities for students.
 
