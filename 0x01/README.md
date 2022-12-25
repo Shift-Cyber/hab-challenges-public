@@ -1,3 +1,5 @@
+<img src=".rsrc/banner.png"/>
+
 # Hack a Bit 0x01
 Challenge Respository for the 2022-2023 Competition Season
 
