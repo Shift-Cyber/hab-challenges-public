@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 90vh;
+
+    background-color: #2e2e2e;
+}
+
+/* and finally:
+ * css}
+ */
+.bear-graphic {
+    width: 50%;
+
+    border-radius: 15px;
+    border: 5px solid black;
+
+    transition: border 0.5s, border-radius 0.5s;
+}
+
+.bear-graphic:hover {
+    border: 5px solid #909090;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.flag-text {
+    color: white;
+    font-size: 30px;
+}

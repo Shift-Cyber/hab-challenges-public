@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  vsftpd:
+    build: ./vsftpd
+    environment:
+      - FLAG=flag{looks_like_you_found_the_right_nail}
+    ports:
+      - "21:21"
+    restart: "unless-stopped"
+

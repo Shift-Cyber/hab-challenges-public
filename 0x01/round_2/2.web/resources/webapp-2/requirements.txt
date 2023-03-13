@@ -1,0 +1,4 @@
+Flask==2.2.2
+pyjwt==2.6.0
+mysql-connector-python==8.0.31
+mysql-connector==2.2.9
