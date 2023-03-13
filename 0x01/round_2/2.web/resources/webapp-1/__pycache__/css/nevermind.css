@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 90vh;
+
+    background-color: #2e2e2e;
+}
+
+.post {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.text {
+    width: 500px;
+    color: white;
+    text-align: justify;
+}

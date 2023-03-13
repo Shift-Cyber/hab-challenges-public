@@ -1,0 +1,62 @@
+.container {
+    background-color: #2e2e2e;
+}
+
+.validity-check-container {
+    width: 550px;
+    margin: auto 100px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.check-container {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+
+.icn {
+    width: 40px;
+}
+
+.pass-icn { color: green; }
+
+.fail-icn { color:red; }
+
+.validity-text {
+    line-height: 32px;
+    color: white;
+    font-size: 16px;
+}
+
+.img-container {
+    width: 750px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+img {
+    width: 100%;
+    border-radius: 50px;
+    border: 5px solid black;
+}
+
+.flag-text {
+    transform: translateY(-140px) rotate(32deg);
+    width: 50%;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+}
+
+.secret-number-container {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.secret-number {
+    color: white;
+    font-size: 60px;
+}
