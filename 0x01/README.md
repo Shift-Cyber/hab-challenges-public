@@ -12,11 +12,11 @@ The Hack a Bit 2022-2023 competition season, marked 0x01 is the first year that 
 ### [Round 1](./round_1)
 Round one is designed to test a competitors current competency level. It is a quick quiz within the Flexiquiz testing environment. Limited to 30 minutes, the competitor answers 30 questions within six catagories of cyber security. The first round is designed to achieve a baseline and allow staff to scope the second round approperiately.
 
-### Round 2
-*pending release...*
+### [Round 2](./round_2)
+Round two is designed to simultaneously educate and evaluate a competitor in preparation for the final. This round runs for roughly one month and the competitors work through 48 total challenges across six categories: cryptography, web, programming, infrastructure, networking, and OSINT. The top 50 competitors qualify for the finals event.
 
 ### Round 3
-*pending release...*
+*Pending release...*
 
 
 ## Infrastructure

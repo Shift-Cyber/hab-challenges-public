@@ -57,3 +57,13 @@ Nate is a leader in the youth cyber security space. After struggling to find goo
 https://www.linkedin.com/in/juan-s-6b241b173/ | https://github.com/cyberducky0o0
 
 Juan Soberanes is a Data Engineer at Balbix, an AI Cybersecurity Startup. He enjoys every aspect of cybersecurity, specifically AI and its relevance to zero days. Juan grew up in San Diego, California and graduated from WGU with a B.S. in Information Security. In his free time he is working on CyberDucky, his platform for making cybersecurity entertaining. In his “fun” time, he enjoys learning different languages, German, Spanish, English, C, C+, Python, it doesn’t end.. ;)
+
+## Writeups
+A core component of competing in Capture the Flag competitions is writeups for challenges. This reenforces learning and ensures that competitors get as much out of the challenges as possible. This year competition staff offered $20 vouchers from the generous sponsor [No Starch Press](https://nostarch.com/) for quality submissions. HaB staff are incredibly proud of the quality submissions we received and are happy to host them here for you to review. Please see the following submissions, in no particular order--they are also listed on individual source materials.
+- TheSavageTeddy: https://thesavageteddy.github.io/posts/writeups-hackabit2023/
+- Shadowstriker: https://github.com/Shadowstriker2023/Hackabit-0x01-Writeup/tree/main/Programming%20Challenges/Wrench
+- Zonal: https://medium.com/@cjvanair/hackabit-injector-writeup-9f4555a5f59e
+- MysticAxolotl: https://github.com/MystiK791/Hack-A-Bit-2023-Writeup
+- Onix: https://github.com/Xiscoded/Write-up/blob/main/ACU2N%2C%20Matchmaker.md
+- WitchKingofAngmar: https://github.com/Reginald-Gillespie/HackABitWriteups/blob/main/Cryptography.md
+- CodeAPretzel: https://github.com/CodeAPretzel/Hack-A-Bit-2023
