@@ -63,7 +63,7 @@ A core component of competing in Capture the Flag competitions is writeups for c
 - TheSavageTeddy: https://thesavageteddy.github.io/posts/writeups-hackabit2023/
 - Shadowstriker: https://github.com/Shadowstriker2023/Hackabit-0x01-Writeup/tree/main/Programming%20Challenges/Wrench
 - Zonal: https://medium.com/@cjvanair/hackabit-injector-writeup-9f4555a5f59e
-- MysticAxolotl: https://github.com/MystiK791/Hack-A-Bit-2023-Writeup
+- MysticAx0lotl: https://github.com/MysticAx0lotl/Hack-A-Bit-2023-Writeup
 - Onix: https://github.com/Xiscoded/Write-up/blob/main/ACU2N%2C%20Matchmaker.md
 - WitchKingofAngmar: https://github.com/Reginald-Gillespie/HackABitWriteups/blob/main/Cryptography.md
 - CodeAPretzel: https://github.com/CodeAPretzel/Hack-A-Bit-2023
