@@ -1,0 +1,6 @@
+
+
+
+# Environment
+'DVGPT_SECRET',
+'DVGPT_OPENAI_TOKEN'

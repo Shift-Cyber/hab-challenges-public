@@ -1,0 +1,106 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  namespace: ctfd-0x01-final
+  creationTimestamp: null
+  labels:
+    ctfd: ctf-pv
+    app: ctf-pv-logs
+  name: ctf-pv-logs
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 100Mi
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  namespace: ctfd-0x01-final
+  creationTimestamp: null
+  labels:
+    ctfd: ctf-pv
+    app: ctfd-pv-uploads
+  name: ctfd-pv-uploads
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 500Mi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: ctfd-0x01-final
+  name: ctfd
+  labels:
+    ctfd: ctfd
+    app: ctfd
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ctfd
+  template:
+    metadata:
+      labels:
+        ctfd: ctfd
+        app: ctfd
+    spec:
+      containers:
+      - env:
+        - name: ACCESS_LOG
+          value: '-'
+        - name: DATABASE_URL
+          value: mysql+pymysql://ctfd:ctfd@ctfd-mysql-db/ctfd
+        - name: ERROR_LOG
+          value: '-'
+        - name: LOG_FOLDER
+          value: /var/log/CTFd
+        - name: REDIS_URL
+          value: redis://ctfd-redis-cache:6379
+        - name: REVERSE_PROXY
+          value: "true"
+        - name: UPLOAD_FOLDER
+          value: /var/uploads
+        - name: WORKERS
+          value: "1"
+        image: ctfd/ctfd
+        imagePullPolicy: ""
+        name: ctfd
+        resources: {}
+        volumeMounts:
+        - mountPath: /var/log/CTFd
+          name: ctf-pv-logs
+        - mountPath: /var/uploads
+          name: ctfd-pv-uploads
+      restartPolicy: Always
+      serviceAccountName: ""
+      automountServiceAccountToken: false
+      volumes:
+      - name: ctf-pv-logs
+        persistentVolumeClaim:
+          claimName: ctf-pv-logs
+      - name: ctfd-pv-uploads
+        persistentVolumeClaim:
+          claimName: ctfd-pv-uploads
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: ctfd-0x01-final
+  labels:
+    app: ctfd
+  name: ctfd
+spec:
+  ports:
+  - name: ui
+    port: 8000
+    protocol: TCP
+    targetPort: 8000
+  selector:
+    app: ctfd
+  type: ClusterIP
+status: {}
