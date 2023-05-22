@@ -1,0 +1,50 @@
+configuration:
+  round_name: "Hack a Bit 0x01 - Round 3 (Final)"
+  unique_code_length: 5
+  year: '01'
+categories:
+  Welcome:
+    description: "To start things off, there are some sanity checks and verification for support awareness."
+    single_digit_id: 'W'
+    challenges: {
+      Wakeup: 5,
+      Weirdo: 5,
+      Support: 5,
+      Billboard: 5
+    }
+  dvGPT:
+    description: "ChatGPT is a powerful tool for nearly anything you can imagine, is it really secure?"
+    single_digit_id: 'G'
+    challenges: {
+      Leaky: 75,
+      Extractor: 100,
+      BadML: 125,
+      BadAI: 150
+    }
+  Corruption:
+    description: "Writing secure, high-quality software is difficult--what happens when you don't?"
+    single_digit_id: 'C'
+    challenges: {
+      Santa: 75,
+      Coredump: 100,
+      bitsANDbytes: 125,
+      Controller: 150
+    }
+  Triage:
+    description: "It's hard to find excellent hackers, but its even harder to find excellent defenders."
+    single_digit_id: 'T'
+    challenges: {
+      Sluth: 75,
+      Inspector: 100,
+      Coverup: 125,
+      Extraction: 150
+    }
+  Range:
+    description: "Can you get on the range? Can you break things? How many things can you break?"
+    single_digit_id: 'R'
+    challenges: {
+      Connection: 75,
+      RightFace: 100,
+      LeftFace: 125,
+      AboutFace: 150
+    }

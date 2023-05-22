@@ -15,8 +15,8 @@ Round one is designed to test a competitors current competency level. It is a qu
 ### [Round 2](./round_2)
 Round two is designed to simultaneously educate and evaluate a competitor in preparation for the final. This round runs for roughly one month and the competitors work through 48 total challenges across six categories: cryptography, web, programming, infrastructure, networking, and OSINT. The top 50 competitors qualify for the finals event.
 
-### Round 3
-*Pending release...*
+### [Round 3](./round_3)
+Round three is designed to teach the offensive side of security in a very real way. While there are four categories of traditional CTF challenges, the core component of the final is a Player to Player (P2P) "King of the Hill (KoTH)" round where players go up against eachother to gain and retain control of the range.
 
 
 ## Infrastructure
