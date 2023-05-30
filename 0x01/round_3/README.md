@@ -1,4 +1,4 @@
-# Hack a Bit x - Round x (X)
+# Hack a Bit 0x01 - Round 3 (Final)
 
 ## Challenge Navigation
 | Pts | dvGPT                                                  | Corruption                                             | Triage                                                 | Range                                                  | 
