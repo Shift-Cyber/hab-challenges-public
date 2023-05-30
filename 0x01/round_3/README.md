@@ -10,8 +10,18 @@
 
 
 ## Categories
-### X
-x
+### dvGPT (Web)
+ChatGPT is a powerful tool for nearly anything you can imagine, is it really secure?
+
+### Corruption (Binex)
+Writing secure, high-quality software is difficult--what happens when you don't?
+
+### Triage (Forensics/Crypto)
+It's hard to find excellent hackers, but its even harder to find excellent defenders.
+
+### Range (King of the Hill A/D)
+Can you get on the range? Can you break things? How many things can you break?
+
 
 ## Contributors
 ### Nate Singer (Helix)
@@ -19,9 +29,9 @@ https://www.linkedin.com/in/nathanielmsinger/ | https://github.com/natesinger
 
 Nate is a leader in the youth cyber security space. After struggling to find good resources back in highschool he managed to figure out how to break into the industry and now spends signficant energy trying to improve the lives of young people and create more opportunity. Hack a Bit is just one of many ways he has been working to move the ball forward in the industry.
 
-### First Last (Handle)
-
 ## Writeups
-writing...
-- x: link
-
+- Rainier Wu / TheSavageTeddy: https://thesavageteddy.github.io/posts/writeups-hackabit2023finals/
+- Austin Stitz: https://austinstitz-hacking.github.io/HackABit-Writeups/
+- Corgo: https://corgi.rip/blog/hab-0x01-writeup/
+- Eth007: https://eth007.me/blog/ctf/hackabit-0x1-koth/
+- witchkingofangmar: https://github.com/Reginald-Gillespie/HackABitWriteups/blob/main/Finals.md
