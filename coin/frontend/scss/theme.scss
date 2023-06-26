@@ -1,0 +1,26 @@
+$color-white: #F5EAE0;
+$color-blue: #71A2B6;
+$color-red: #E82139;
+$color-charcoal: #394053;
+$color-grey: #495159;
+
+.non-selectable {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: underline;
+    color: $color-charcoal;
+}
+
+a:hover {
+    color: $color-blue;
+    font-weight: 600;
+    transition: 200ms;
+    cursor: pointer;
+}
