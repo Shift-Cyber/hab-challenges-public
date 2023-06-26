@@ -1,0 +1,28 @@
+$color-background: #231F20;
+$color-white-1: #FFFFFF;
+$color-grey-1: #E0E4EB;
+$color-grey-2: #CACACA;
+$color-yellow-1: #FDFD96;
+$color-purple-1: #dd2ee5;
+$color-purple-2: #5B005C;
+$color-blue-1: #00F7E7;
+$color-blue-2: #2B769E;
+$color-blue-3: #2E4281;
+$color-blue-4: #182242;
+
+.non-selectable {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:hover {
+    color: $color-white-1;
+    font-weight: 600;
+    transition: 200ms;
+    cursor: pointer;
+}
